@@ -1,21 +1,20 @@
-# Wemos D1 Mini Unit Test Example
+# Wemos D1 Mini Unit Test (PlatformIO)
 
-This project demonstrates how to run basic unit tests on a Wemos D1 Mini (ESP8266) using the Unity Test Framework in the Arduino environment. 
-It serves as a minimal setup to validate hardware constants and simple logic operations.
+This project demonstrates how to run basic unit tests on a Wemos D1 Mini (ESP8266) using the Unity Test Framework within the PlatformIO environment. It serves as a minimal setup to validate hardware constants and simple logic operations.
 
 ## Overview
 
-- Platform: Arduino
+- Platform: PlatformIO
 - Board: Wemos D1 Mini (ESP8266)
-- Framework: Unity Test Framework
+- Framework: Arduino + Unity Test Framework
 - Purpose: Validate hardware pin definitions and basic logic
 
 ## Setup Instructions
 
-1. Clone or download the repository.
-2. Open the sketch in the Arduino IDE.
-3. Select the appropriate board and COM port.
-4. Upload the sketch to your device.
+1. Clone or download this repository.
+2. Open the project folder in VS Code with the PlatformIO extension.
+3. Ensure the correct board (`d1_mini`) is specified in `platformio.ini`.
+4. Build and upload the firmware to your device.
 5. Open the Serial Monitor to view test results.
 
 ## Tests Included
@@ -34,5 +33,15 @@ It serves as a minimal setup to validate hardware constants and simple logic ope
 - If you're using a different board, you may need to adjust the expected LED pin value.
 - This setup can be extended to test additional hardware features or application logic.
 
+## PlatformIO Configuration
+
+Make sure your `platformio.ini` includes the following:
+
+- Platform: `espressif8266`
+- Board: `d1_mini`
+- Framework: `arduino`
+- Monitor speed: `115200`
+
+## License
 
 This project is licensed under the MIT License.
