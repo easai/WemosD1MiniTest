@@ -1,6 +1,6 @@
 # Wemos D1 Mini Unit Test (PlatformIO)
 
-This project demonstrates how to run basic unit tests on a Wemos D1 Mini (ESP8266) using the Unity Test Framework within the PlatformIO environment. It serves as a minimal setup to validate hardware constants and simple logic operations.
+This project demonstrates how to run basic unit tests on a Wemos D1 Mini (ESP8266) using the Unity Test Framework within the PlatformIO environment.
 
 ## Overview
 
